@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_margin="16dp">
+
+        <TextView style="@style/itemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/casas_decimais"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:id="@+id/tv_texto1"
+            android:padding="16dp"/>
+
+        <SeekBar
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"
+            android:layout_gravity="center_horizontal"
+            android:max = "8"
+            android:layout_weight="1"
+            android:padding="16dp"/>
+
+        <TextView style="@style/itemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/lbl_zero"
+            android:textAlignment="textEnd"
+            android:layout_gravity="end"
+            android:id="@+id/tv_valor_max"
+            android:padding="16dp"/>
+
+</LinearLayout>

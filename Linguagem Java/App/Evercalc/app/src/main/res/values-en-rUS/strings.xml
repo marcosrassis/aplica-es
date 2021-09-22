@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--TabLayout-->
+    <string name="tab1_label">Finances</string>
+    <string name="tab2_label">Converter</string>
+
+    <!--Toolbar-->
+    <string name="app_name">Evercalc</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_search">Search</string>
+
+    <!--Toolbar Menu Options-->
+    <string name="action_about">About</string>
+    <string name="action_contato">Contact Us</string>
+    <string name="action_obs_contato">Doubts? Need help? Reporting a problem.</string>
+    <string name="action_rate">Rate Us</string>
+    <string name="action_share">Share</string>
+    <string name="action_convert_all">All</string>
+
+    <!--Menu main drawer-->
+    <string name="organizacao">Assisdigital</string>
+    <string name="email_organizacao">assisdigitalmobile@gmail.com</string>
+    <string name="titulo_menu_preferencia">Configurations</string>
+    <string name="titulo_menu_comunicacao">Communication</string>
+    <string name="titulo_menu_compartilhe">Share</string>
+    <string name="titulo_menu_opine">Feedback</string>
+
+    <!--Menu suspenso-->
+    <string name="app_name_sobre">About</string>
+    <string name="app_name_configuracao">Configuration</string>
+    <string name="app_name_reporte">Submit an event</string>
+
+    <!--Mensagens do  Gerenciador de Moeda-->
+    <string name="msg_conexao_servidor">Check your Internet connection and try again. Could not connect to the server quotes.</string>
+    <string name="msg_calculo_moeda">There was a problem in the currency conversion</string>
+    <string name="msg_selecao_moeda">Select a currency</string>
+    <string name="lbl_de">From</string>
+    <string name="lbl_para">To</string>
+    <string name="lbl_montante">Amount</string>
+    <string name="lbl_resultado">Result</string>
+
+        <!--Mensagens do  Gerenciador de Unidades-->
+    <string name="msg_selecao_unidade">Select a unit</string>
+    <string name="msg_calculo_unidade" tools:keep="@string/msg_calculo_unidade">There was a problem unit conversion</string>
+
+    <!--Sobre o aplicativo -->
+    <string name="titulo_descricao_app">App Description:</string>
+    <string name="descricao_app">
+		Simulator financial calculations and converter of currencies and units of measurement, together in the same app.
+    </string>
+    <string name="titulo_versao_app">Version:</string>
+    <string name="titulo_desenvolvedor_app">Developer:</string>
+    <string name="nome_desenvolvedor_app">Assisdigital</string>
+    <string name="titulo_contato_desenvolvedor_app">Contact:</string>
+    <string name="titulo_observacao_sobre">Remark:</string>
+    <string name="observacao_sobre">
+        <![CDATA[
+          If you liked this app, please consider giving a good rate on the Play Store, this will help in the continuous improvement of this application.
+        ]]>
+    </string>
+
+    <!--Configuração do aplicativo -->
+    <string name="titulo_formatacao">Formatting</string>
+    <string name="texto_bt_aceitar">OK</string>
+    <string name="texto_bt_cancelar">Cancel</string>
+    <string name="titulo_numero_casas_decimais">Number of decimal places</string>
+    <string name="observacao_casas_decimais">Set the number of decimal places of the converted value (Only for Unit and Currency Converter)</string>
+    <string name="notacao_cientifica">Cientific notation</string>
+    <string name="status_notacao_cientifica">Activated (Unit Converter only)</string>
+    <string name="casas_decimais">Number</string>
+    <string name="informacoes_gerais">General information</string>
+
+    <!--Reporte de Bugs ou problemas -->
+    <string name="titulo_assunto_email_reporte">Occurrence Report</string>
+    <string name="msg_tela_reporte">Report an event</string>
+
+    <!--Compartilhe -->
+    <string name="titulo_compartilhe">Share</string>
+    <string name="titulo_assunto_email">Evercalc - Simulator financial calculations and converter of currencies and units of measurement.</string>
+    <string name="app_address">https://play.google.com/store/apps/details?id=com.assissoft.canif</string>
+	<string name="msg_compartilhe">
+        <![CDATA[
+          See that app that I using! \n\n
+
+          It´s the Evercalc - Simulator financial calculations and converter of units of measurement, \n\n
+
+          I recommend! \n\n
+        ]]>
+    </string>
+
+    <!--Página do Desenvolvedor -->
+    <string name="fb_address">https://www.facebook.com/assisdigitalmobile</string>
+
+    <!--Página do Evercalc no PowToon -->
+    <string name="pt_address">https://www.powtoon.com/online-presentation/eaYiLNu9Ij3/?mode=movie#/</string>
+
+    <!--Página do Evercalc no Youtube -->
+    <string name="yt_address">https://www.youtube.com/watch?v=bkkQtqKrahM/</string>
+
+    <!--Mensagens genéricas -->
+    <string name="msg_google_play">You do not have Google Play installed</string>
+    <string name="msg_conversor_icone">Converter icon</string>
+    <string name="msg_simcalc_icone">Calculator icon</string>
+
+    <!--Opine -->
+    <string name="destinatario_feedback">assisdigitalmobile@gmail.com</string>
+    <string name="titulo_opine">Give your opinion</string>
+
+    <!-- Casas Decimais -->
+    <string name="lbl_zero">0</string>
+
+    <!-- Aqui começa a parte do SIMCALC -->
+
+    <!--Labels Cálculo Antecipação de Valor Único -->
+    <string name="lbl_valor_a_receber">Value Receivable:</string>
+    <string name="lbl_taxa_de_juros">Interest rate:</string>
+    <string name="lbl_numero_de_meses">Term maturity:</string>
+    <string name="lbl_vencimento_parcela">Debt maturity:</string>
+    <string name="lbl_dia_pagamento">Pay day:</string>
+    <string name="lbl_valor_atual">Amount to be Paid:</string>
+    <string name="lbl_valor_do_desconto">Discount amount:</string>
+
+    <!--Labels Cálculo Antecipação de Valor Parcelado-->
+    <string name="lbl_valor_da_parcela">Value of installment:</string>
+    <string name="lbl_parcelas_a_vencer">Installments due:</string>
+
+    <!--Labels Cálculo Aplicação-->
+    <string name="lbl_capital">Application value:</string>
+    <string name="lbl_periodo">Term (n):</string>
+    <string name="lbl_valor_futuro">Future value:</string>
+
+    <!--Labels Cálculo Compra-->
+    <string name="lbl_deposito_inicial">Initial deposit:</string>
+    <string name="lbl_deposito_mensal">Monthly deposit:</string>
+    <string name="lbl_valor_do_bem">Good value:</string>
+
+    <!--Labels Cálculo Juntar Dinheiro-->
+    <string name="lbl_valor_a_atingir">Target value:</string>
+    <string name="lbl_obs_tx_juros">* Some types of investment are not taxed on your income. Other modalities have tax on their income. When using this simulator, enter the net income rate (Gross Income minus Income Tax), that is, the amount you will actually receive.</string>
+    <string name="lbl_observacao">Remark</string>
+    <string name="lbl_minha_meta">My goal:</string>
+    <string name="lbl_quanto_custa_meta">How much does my goal cost?:</string>
+    <string name="lbl_quanto_tenho_guardado_para_meta">How much I have saved:</string>
+    <string name="lbl_quanto_posso_guardar_meta">How much can I save per month:</string>
+    <string name="lbl_taxa_rendimento_meta">Monthly income rate*:</string>
+    <string name="lbl_prazo_meta">Deadline to accomplish the goal:</string>
+
+    <!--Labels Cálculo Empréstimo-->
+    <string name="lbl_valor_do_emprestimo">Loan amount:</string>
+    <string name="lbl_valor_do_montante">Sum:</string>
+
+    <!--Labels Cálculo Financiamento-->
+    <string name="lbl_primeira_parcela_em">1st installment in:</string>
+    <string name="lbl_prazo_do_primeiro_pgto">Term 1st installment:</string>
+    <string name="lbl_prazo_pgto">30 days</string>
+    <string name="lbl_valor_total_a_pagar">Amount to be paid:</string>
+    <string name="lbl_tx_anual_juros">Annual Interest Rate:</string>
+    <string name="lbl_valor_gasto_de_juros">Amount spent on interest:</string>
+
+    <!--Labels Cálculo Financiamento Veículo-->
+    <string name="lbl_preco_do_veiculo">Price Vehicle:</string>
+    <string name="lbl_valor_financiado">Amount Financed:</string>
+    <string name="lbl_valor_da_entrada">Input value:</string>
+    <string name="lbl_prestacoes">Number of installments:</string>
+
+    <!--Labels Cálculo Viver de Renda-->
+    <string name="lbl_retirada">Withdrawal:</string>
+
+    <!--Labels da telas de cálculo -->
+    <string name="lbl_calculo">Enter your values</string>
+
+</resources>

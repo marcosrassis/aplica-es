@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Default elevation  -->
+    <dimen name="fab_elevation">6dp</dimen>
+    <!-- Títulos e Sub Títulos -->
+    <dimen name="primary_text_font_size">16sp</dimen>
+    <dimen name="secondary_text_font_size">14sp</dimen>
+    <!-- Define largura e altura dos ícones -->
+    <dimen name="list_item_iv_layout_width">48dp</dimen>
+    <dimen name="list_item_iv_layout_height">48dp</dimen>
+    <!-- Usado nas telas do Simcalc -->
+    <dimen name="list_item_ll_paddingTop">8dp</dimen>
+    <dimen name="list_item_ll_paddingLeft">16dp</dimen>
+    <dimen name="list_item_ll_paddingRight">16dp</dimen>
+    <!-- Usado na tela Unidades_list_fragment -->
+    <dimen name="list_item_tv_paddingBottom">16dp</dimen>
+    <dimen name="list_item_tv_paddingTop">16dp</dimen>
+
+</resources>

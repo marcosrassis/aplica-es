@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="40"
+        android:title="@string/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_rate"
+        android:orderInCategory="50"
+        android:title="@string/action_rate"
+        android:icon="@mipmap/ic_rate"
+        app:showAsAction="never|withText" />
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="60"
+        android:title="@string/action_share"
+        android:icon="@mipmap/ic_share"
+        app:showAsAction="never|withText" />
+    <item
+        android:id="@+id/action_conf"
+        android:orderInCategory="70"
+        android:title="@string/titulo_menu_preferencia"
+        android:icon="@mipmap/ic_support"
+        app:showAsAction="never|withText" />
+    <item
+        android:id="@+id/action_convert_all"
+        android:orderInCategory="80"
+        android:title="@string/action_convert_all"
+        android:icon="@mipmap/ic_convert_all"
+        app:showAsAction="ifRoom|withText" />
+
+</menu>

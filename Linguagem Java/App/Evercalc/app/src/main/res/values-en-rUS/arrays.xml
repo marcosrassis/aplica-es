@@ -1,0 +1,868 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Usado para preencher o ListView da Busca Geral -->
+    <string-array name="titulo_busca_geral">
+        <item>Convert units of acceleration - linear</item>
+        <item>Convert area units</item>
+        <item>Convert gas units</item>
+        <item>Convert units of length</item>
+        <item>Convert mass units</item>
+        <item>Make converting 150 currencies</item>
+        <item>Make calculations of equivalent interest rates</item>
+        <item>Convert temperature units</item>
+        <item>Convert speed units</item>
+        <item>Convert volume units</item>
+        <item>Calculate an advance single amount receivable.</item>
+        <item>Calculate the amount in advance installments receivable.</item>
+        <item>Calculate the loan capital with one payment at the end of the period.</item>
+        <item>Calculate the interest rate of a one payment loan at the end of the period.</item>
+        <item>Calculate the time required for a certain loan amount produces a certain amount.</item>
+        <item>Calculate the loan amount with single payment at the end of the period.</item>
+        <item>Calculate the financed amount for acquisition of a good with payment of fixed Installments.</item>
+        <item>Calculate the interest rate charged for the period in a financing fixed installments.</item>
+        <item>Find out how long the good funded will be paid.</item>
+        <item>Find out the value of the fixed installment of a funding.</item>
+        <item>Find out the input value to finance a vehicle.</item>
+        <item>Figure out the future value of an application with a single initial deposit.</item>
+        <item>Find out the initial value of an application with a single initial deposit.</item>
+        <item>Find out how long a certain amount will produce a certain amount accumulated.</item>
+        <item>Find out the interest rate of an application with a single initial deposit.</item>
+        <item>Calculate the value of the good you will be able to buy making a determined effort.</item>
+        <item>Find out how much you need to save per month to buy a particular good  in one lump sum.</item>
+        <item>Find out how long you will have enough money to buy a particular good in one lump sum.</item>
+        <item>Find out how much will be used of money saved to the initial deposit, limiting monthly deposits.</item>
+        <item>Know how much you will be getting per month by fixing the enjoyment period and the accumulated value.</item>
+        <item>Find out how long you can get a certain monthly withdrawal with a certain amount accumulated.</item>
+        <item>Find out how much you need to accumulate in order to live income by fixing the value of withdrawals and the enjoyment period.</item>
+        <item>Find out how much you can accumulate according to their possibilities.</item>
+        <item>Find out how much you need to save each month to accumulate a certain amount.</item>
+        <item>Find out how long it can accumulate a certain amount according to the deposits that you stipulate.</item>
+        <item>Find out how much you need to have to start saving amounts monthly to accumulate a certain amount.</item>
+    </string-array>
+
+    <!-- Usado para preencher o ListView da Busca Geral -->
+    <string-array name="descricao_busca_geral">
+        <item>@string/tab2_label</item>
+        <item>@string/tab2_label</item>
+        <item>@string/tab2_label</item>
+        <item>@string/tab2_label</item>
+        <item>@string/tab2_label</item>
+        <item>@string/tab2_label</item>
+        <item>@string/tab2_label</item>
+        <item>@string/tab2_label</item>
+        <item>@string/tab2_label</item>
+        <item>@string/tab2_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+        <item>@string/tab1_label</item>
+    </string-array>
+
+    <!-- Array dos apps usados no ArrayAdapter da ListView da Busca Geral  -->
+    <string-array name="app_busca_geral">
+        <item>DefConversor.ACELERACAO</item>
+        <item>DefConversor.AREA</item>
+        <item>DefConversor.COMBUSTIVEL</item>
+        <item>DefConversor.COMPRIMENTO</item>
+        <item>DefConversor.MASSA</item>
+        <item>DefConversor.MOEDA</item>
+        <item>DefConversor.TAXAS</item>
+        <item>DefConversor.TEMPERATURA</item>
+        <item>DefConversor.VELOCIDADE</item>
+        <item>DefConversor.VOLUME</item>
+        <item>DefSimcalc.ANTECIPACAO_1</item>
+        <item>DefSimcalc.ANTECIPACAO_2</item>
+        <item>DefSimcalc.EMPRESTIMO_1</item>
+        <item>DefSimcalc.EMPRESTIMO_2</item>
+        <item>DefSimcalc.EMPRESTIMO_3</item>
+        <item>DefSimcalc.EMPRESTIMO_4</item>
+        <item>DefSimcalc.FINANCIAMENTO_1</item>
+        <item>DefSimcalc.FINANCIAMENTO_2</item>
+        <item>DefSimcalc.FINANCIAMENTO_3</item>
+        <item>DefSimcalc.FINANCIAMENTO_4</item>
+        <item>DefSimcalc.FINANCIAMENTO_VEICULO</item>
+        <item>DefSimcalc.APLICACAO_1</item>
+        <item>DefSimcalc.APLICACAO_2</item>
+        <item>DefSimcalc.APLICACAO_3</item>
+        <item>DefSimcalc.APLICACAO_4</item>
+        <item>DefSimcalc.COMPRA_1</item>
+        <item>DefSimcalc.COMPRA_2</item>
+        <item>DefSimcalc.COMPRA_3</item>
+        <item>DefSimcalc.COMPRA_4</item>
+        <item>DefSimcalc.RENDA_1</item>
+        <item>DefSimcalc.RENDA_2</item>
+        <item>DefSimcalc.RENDA_3</item>
+        <item>DefSimcalc.DINHEIRO_1</item>
+        <item>DefSimcalc.DINHEIRO_2</item>
+        <item>DefSimcalc.DINHEIRO_3</item>
+        <item>DefSimcalc.DINHEIRO_4</item>
+    </string-array>
+
+    <!-- Array das imagens usado no ArrayAdapter da ListView da Busca Geral  -->
+    <string-array name="icons_busca_geral">
+        <item>@mipmap/ic_aceleracao</item>
+        <item>@mipmap/ic_area</item>
+        <item>@mipmap/ic_gas</item>
+        <item>@mipmap/ic_comprimento</item>
+        <item>@mipmap/ic_peso</item>
+        <item>@mipmap/ic_moeda</item>
+        <item>@mipmap/ic_rates</item>
+        <item>@mipmap/ic_termometro</item>
+        <item>@mipmap/ic_speed</item>
+        <item>@mipmap/ic_volume</item>
+        <item>@mipmap/ic_divida_unica</item>
+        <item>@mipmap/ic_divida_parcelada</item>
+        <item>@mipmap/ic_capital</item>
+        <item>@mipmap/ic_taxa</item>
+        <item>@mipmap/ic_tempo</item>
+        <item>@mipmap/ic_montante</item>
+        <item>@mipmap/ic_capital</item>
+        <item>@mipmap/ic_taxa</item>
+        <item>@mipmap/ic_tempo</item>
+        <item>@mipmap/ic_parcela</item>
+        <item>@mipmap/ic_capital</item>
+        <item>@mipmap/ic_montante</item>
+        <item>@mipmap/ic_capital</item>
+        <item>@mipmap/ic_tempo</item>
+        <item>@mipmap/ic_taxa</item>
+        <item>@mipmap/ic_capital</item>
+        <item>@mipmap/ic_parcela</item>
+        <item>@mipmap/ic_tempo</item>
+        <item>@mipmap/ic_parcela</item>
+        <item>@mipmap/ic_capital</item>
+        <item>@mipmap/ic_periodo</item>
+        <item>@mipmap/ic_montante</item>
+        <item>@mipmap/ic_capital</item>
+        <item>@mipmap/ic_parcela</item>
+        <item>@mipmap/ic_tempo</item>
+        <item>@mipmap/ic_parcela</item>
+    </string-array>
+
+    <!-- Usado para preencher o ListView de Conversores da tela inicial -->
+    <string-array name="titulo_conversores">
+        <item>Acceleration</item>
+        <item>Area</item>
+        <item>Gas</item>
+        <item>Length</item>
+        <item>Weight</item>
+        <item>Currency</item>
+        <item>Rate</item>
+        <item>Temperature</item>
+        <item>Speed</item>
+        <item>Volume</item>
+    </string-array>
+
+    <!-- Usado para preencher o ListView de Conversores da tela inicial -->
+    <string-array name="descricao_conversores">
+        <item>Convert units of acceleration - linear</item>
+        <item>Convert area units</item>
+        <item>Convert gas units</item>
+        <item>Convert units of length</item>
+        <item>Convert mass units</item>
+        <item>Make converting 150 currencies</item>
+        <item>Make calculations of equivalent interest rates</item>
+        <item>Convert temperature units</item>
+        <item>Convert speed units</item>
+        <item>Convert volume units</item>
+    </string-array>
+
+    <!-- Usado para preencher o ArrayAdapter para criar a lista das unidades -->
+    <string-array name="array_nomes_conversores">
+        <item>aceleracao</item>
+        <item>area</item>
+        <item>combustivel</item>
+        <item>comprimento</item>
+        <item>massa</item>
+        <item>moedas</item>
+        <item>taxas</item>
+        <item>temperatura</item>
+        <item>velocidade</item>
+        <item>volume</item>
+    </string-array>
+
+    <!-- Array das unidades usadas no ArrayAdapter da ListView de Aceleração linear  -->
+    <string-array name="aceleracao" tools:keep="@array/aceleracao">
+        <item>Foot/Second Squared (ft/s2)</item>
+        <item>Galileo (Gal)</item>
+        <item>Gravity Earth (g0)</item>
+        <item>Inch/Second Squared (in/s2)</item>
+        <item>Kilometer/Second Squared (km/s2)</item>
+        <item>Meter/Second Squared (m/s2)</item>
+        <item>Mile/Second Squared (mi/s2)</item>
+        <item>Millimeter/Second Squared (mm/s2)</item>
+    </string-array>
+
+    <!-- Array das unidades usadas no ArrayAdapter da ListView de Area  -->
+    <string-array name="area" tools:keep="@array/area">
+        <item>Acre (ac)</item>
+        <item>Are (a)</item>  <!-- ou Decâmetro Quadrado -->
+        <item>Hectare (ha)</item>
+        <item>Square Centimeter (cm2)</item>
+        <item>Square Foot (ft2)</item>
+        <item>Square Inch (in2)</item>
+        <item>Square Meter (m2)</item>
+        <item>Square Mile (mi2)</item>
+        <item>Square Yard (yd2)</item>
+    </string-array>
+
+    <!-- Array das unidades usadas no ArrayAdapter da ListView de Comprimento  -->
+    <string-array name="comprimento" tools:keep="@array/comprimento">
+        <item>Centimeter (cm)</item>
+        <item>Inch (in)</item>
+        <item>International foot (ft)</item>
+        <item>Kilometer (km)</item>
+        <item>Meter (m)</item>
+        <item>Mile (mi)</item>
+        <item>Millimeter (mm)</item>
+        <item>Nautical Mile (mn)</item>
+        <item>United States foot (ft US)</item>
+        <item>Yard (yd)</item>
+    </string-array>
+
+    <!-- Array das unidades usadas no ArrayAdapter da ListView de Massa  -->
+    <string-array name="massa" tools:keep="@array/massa">
+        <item>Grain (gr)</item>
+        <item>Gram (g)</item>
+        <item>Kilogram (kg)</item>
+        <item>Milligram (mg)</item>
+        <item>Ounce (oz)</item>
+        <item>Pound (lb)</item>
+        <item>Stone UK (st)</item>
+        <item>Ton Long (t UK)</item>
+        <item>Ton Metric (t)</item>
+        <item>Ton Short (t US)</item>
+    </string-array>
+
+    <!-- Array das unidades usadas no ArrayAdapter da ListView de Moeda  -->
+    <string-array name="moedas">
+        <item>AFEGANE AFEGANIST (AFN)</item>
+        <item>ARIARY MADAGASCAR (MGA)</item>
+        <item>BALBOA/PANAMA (PAB)</item>
+        <item>BATH/TAILANDIA (THB)</item>
+        <item>BOLIVAR FORTE/VEN (VEF)</item>
+        <item>BOLIVIANO/BOLIVIA (BOB)</item>
+        <item>CEDI GANA (GHS)</item>
+        <item>COLON/COSTA RICA (CRC)</item>
+        <item>COLON/EL SALVADOR (SVC)</item>
+        <item>CORDOBA OURO (NIO)</item>
+        <item>COROA DINAM/DINAM (DKK)</item>
+        <item>COROA ISLND/ISLAN (ISK)</item>
+        <item>COROA NORUE/NORUE (NOK)</item>
+        <item>COROA SUECA/SUECI (SEK)</item>
+        <item>COROA TCHECA (CZK)</item>
+        <item>DALASI/GAMBIA (GMD)</item>
+        <item>DINAR ARGELINO (DZD)</item>
+        <item>DINAR SERVIO SERV (RSD)</item>
+        <item>DINAR/BAHREIN (BHD)</item>
+        <item>DINAR/IRAQUE (IQD)</item>
+        <item>DINAR/JORDANIA (JOD)</item>
+        <item>DINAR/KWAIT (KWD)</item>
+        <item>DINAR/LIBIA (LYD)</item>
+        <item>DINAR/MACEDONIA (MKD)</item>
+        <item>DINAR/TUNISIA (TND)</item>
+        <item>DIREITO ESPECIAL (SDR)</item>
+        <item>DIRHAM/EMIR.ARABE (AED)</item>
+        <item>DIRHAM/MARROCOS (MAD)</item>
+        <item>DOBRA S TOME PRIN (STD)</item>
+        <item>DOLAR AUSTRALIANO (AUD)</item>
+        <item>DOLAR BRUNEI (BND)</item>
+        <item>DOLAR CANADENSE (CAD)</item>
+        <item>DOLAR CARIBE ORIE (XCD)</item>
+        <item>DOLAR DA GUIANA (GYD)</item>
+        <item>DOLAR DA NAMIBIA (NAD)</item>
+        <item>DOLAR DOS EUA (USD)</item>
+        <item>DOLAR FIJI (FJD)</item>
+        <item>DOLAR LIBERIA (LRD)</item>
+        <item>DOLAR OURO (XAU)</item>
+        <item>DOLAR/BAHAMAS (BSD)</item>
+        <item>DOLAR/BARBADOS (BBD)</item>
+        <item>DOLAR/BELIZE (BZD)</item>
+        <item>DOLAR/BERMUDAS (BMD)</item>
+        <item>DOLAR/CAYMAN (KYD)</item>
+        <item>DOLAR/CINGAPURA (SGD)</item>
+        <item>DOLAR/ETIOPIA (ETB)</item>
+        <item>DOLAR/HONG-KONG (HKD)</item>
+        <item>DOLAR/IL SALOMAO (SBD)</item>
+        <item>DOLAR/JAMAICA (JMD)</item>
+        <item>DOLAR/NOVA ZELAND (NZD)</item>
+        <item>DOLAR/SURINAME (SRD)</item>
+        <item>DOLAR/TRIN. TOBAG (TTD)</item>
+        <item>DONGUE/VIETNAN (VND)</item>
+        <item>DRAM ARMENIA REP (AMD)</item>
+        <item>ESCUDO CABO VERDE (CVE)</item>
+        <item>EURO (EUR)</item>
+        <item>FLORIM/ARUBA (AWG)</item>
+        <item>FORINT/HUNGRIA (HUF)</item>
+        <item>FRANCO CFA BCEAO (XOF)</item>
+        <item>FRANCO CFA BEAC (XAF)</item>
+        <item>FRANCO CFP (XPF)</item>
+        <item>FRANCO CONGOLES (CDF)</item>
+        <item>FRANCO SUICO (CHF)</item>
+        <item>FRANCO/BURUNDI (BIF)</item>
+        <item>FRANCO/COMORES (KMF)</item>
+        <item>FRANCO/DJIBUTI (DJF)</item>
+        <item>FRANCO/GUINE (GNF)</item>
+        <item>FRANCO/RUANDA (RWF)</item>
+        <item>GOURDE/HAITI (HTG)</item>
+        <item>GUARANI/PARAGUAI (PYG)</item>
+        <item>GUILDER ANTILHAS (ANG)</item>
+        <item>HRYVNIA UCRANIA (UAH)</item>
+        <item>IENE (JPY)</item>
+        <item>IUAN RENMIMBI/CHI (CNY)</item>
+        <item>KINA/PAPUA N GUIN (PGK)</item>
+        <item>KUNA/CROACIA (HRK)</item>
+        <item>KWANZA/ANGOLA (AOA)</item>
+        <item>LARI GEORGIA (GEL)</item>
+        <item>LEK ALBANIA REP (ALL)</item>
+        <item>LEMPIRA/HONDURAS (HNL)</item>
+        <item>LEONE/SERRA LEOA (SLL)</item>
+        <item>LEU/MOLDAVIA, REP (MDL)</item>
+        <item>LEV/BULGARIA, REP (BGN)</item>
+        <item>LIBRA ESTERLINA (GBP)</item>
+        <item>LIBRA/EGITO (EGP)</item>
+        <item>LIBRA/FALKLAND (FKP)</item>
+        <item>LIBRA/GIBRALTAR (GIP)</item>
+        <item>LIBRA/LIBANO (LBP)</item>
+        <item>LIBRA/SIRIA, REP (SYP)</item>
+        <item>LIBRA/STA HELENA (SHP)</item>
+        <item>LILANGENI/SUAZIL (SZL)</item>
+        <item>LOTI/LESOTO (LSL)</item>
+        <item>NAIRA/NIGERIA (NGN)</item>
+        <item>NAKFA ERITREIA (ERN)</item>
+        <item>NGULTRUM/BUTAO (BTN)</item>
+        <item>NOVA LIBRA SUDANE (SDG)</item>
+        <item>NOVA LIRA/TURQUIA (TRY)</item>
+        <item>NOVA METICAL/MOCA (MZN)</item>
+        <item>NOVO DOLAR/TAIWAN (TWD)</item>
+        <item>NOVO LEU/ROMENIA (RON)</item>
+        <item>NOVO MANAT TURCOM (TMT)</item>
+        <item>NOVO PESO/MEXICO (MXN)</item>
+        <item>NOVO SOL/PERU (PEN)</item>
+        <item>PAANGA/TONGA (TOP)</item>
+        <item>PATACA/MACAU (MOP)</item>
+        <item>PESO/ARGENTINA (ARS)</item>
+        <item>PESO/CHILE (CLP)</item>
+        <item>PESO/COLOMBIA (COP)</item>
+        <item>PESO/CUBA (CUP)</item>
+        <item>PESO/FILIPINAS (PHP)</item>
+        <item>PESO/REP. DOMINIC (DOP)</item>
+        <item>PESO/URUGUAIO (UYU)</item>
+        <item>PULA/BOTSWANA (BWP)</item>
+        <item>QUACHA/MALAVI (MWK)</item>
+        <item>QUETZAL/GUATEMALA (GTQ)</item>
+        <item>QUIATE/BIRMANIA (MMK)</item>
+        <item>QUIPE/LAOS, REP (LAK)</item>
+        <item>RANDE/AFRICA SUL (ZAR)</item>
+        <item>REAL (BRL)</item>
+        <item>RIAL/ARAB SAUDITA (SAR)</item>
+        <item>RIAL/CATAR (QAR)</item>
+        <item>RIAL/IEMEN (YER)</item>
+        <item>RIAL/IRAN, REP (IRR)</item>
+        <item>RIAL/OMA (OMR)</item>
+        <item>RIEL/CAMBOJA (KHR)</item>
+        <item>RINGGIT/MALASIA (MYR)</item>
+        <item>RUBLO/RUSSIA (RUB)</item>
+        <item>RUFIA/MALDIVAS (MVR)</item>
+        <item>RUPIA/INDIA (INR)</item>
+        <item>RUPIA/INDONESIA (IDR)</item>
+        <item>RUPIA/MAURICIO (MUR)</item>
+        <item>RUPIA/NEPAL (NPR)</item>
+        <item>RUPIA/PAQUISTAO (PKR)</item>
+        <item>RUPIA/SEYCHELES (SCR)</item>
+        <item>RUPIA/SRI LANKA (LKR)</item>
+        <item>SHEKEL/ISRAEL (ILS)</item>
+        <item>SOM QUIRGUISTAO (KGS)</item>
+        <item>SOM UZBEQUISTAO (UZS)</item>
+        <item>SOMONI TADJIQUIST (TJS)</item>
+        <item>TACA/BANGLADESH (BDT)</item>
+        <item>TALA SAMOA OC (WST)</item>
+        <item>TENGE CAZAQUISTAO (KZT)</item>
+        <item>TUGRIK/MONGOLIA (MNT)</item>
+        <item>UGUIA MAURITANIA (MRO)</item>
+        <item>UNID FOMENTO CHIL (CLF)</item>
+        <item>VATU VANUATU (VUV)</item>
+        <item>WON/COREIA SUL (KRW)</item>
+        <item>XELIM/QUENIA (KES)</item>
+        <item>XELIM/SOMALIA (SOS)</item>
+        <item>XELIM/TANZANIA (TZS)</item>
+        <item>XELIM/UGANDA (UGX)</item>
+        <item>ZLOTY/POLONIA (PLN)</item>
+    </string-array>
+
+    <!-- Array das unidades usadas no ArrayAdapter da ListView de Taxas  -->
+    <string-array name="taxas" tools:keep="@array/taxas">
+        <item>Percentage rate per day (day)</item>
+        <item>Percentage rate per month (month)</item>
+        <item>Percentage rate per year (year)</item>
+    </string-array>
+
+    <!-- Array das unidades usadas no ArrayAdapter da ListView de Temperatura  -->
+    <string-array name="temperatura" tools:keep="@array/temperatura">
+        <item>Celsius (°C)</item>
+        <item>Fahrenheit (°F)</item>
+        <item>Kelvin (K)</item>
+    </string-array>
+
+    <!-- Array das unidades usadas no ArrayAdapter da ListView de Velocidade  -->
+    <string-array name="velocidade" tools:keep="@array/velocidade">
+        <item>Foot per minute (ft/min)</item>
+        <item>Foot per second (ft/s)</item>
+        <item>Inch per minute (in/min)</item>
+        <item>Inch per second (in/s)</item>
+        <item>Kilometer per hour (km/h)</item>
+        <item>Kilometer per minute (km/min)</item>
+        <item>Kilometer per second (km/s)</item>
+        <item>Meters per second (m/s)</item>
+        <item>Miles per hour (mph)</item>
+        <item>Miles per minute (mi/min)</item>
+        <item>Miles per second (mi/s)</item>
+    </string-array>
+
+    <!-- Array das unidades usadas no ArrayAdapter da ListView de Volume  -->
+    <string-array name="volume" tools:keep="@array/volume">
+        <item>Cubic Centimeter (cm3)</item>
+        <item>Cubic Foot (ft3)</item>
+        <item>Cubic Inch (in3)</item>
+        <item>Cubic Meter (m3)</item>
+        <item>Cubic Yard (yd3)</item>
+        <item>Gallon UK (gal UK)</item>
+        <item>Gallon US (gal US)</item>
+        <item>Liter (L)</item>
+    </string-array>
+
+    <!-- Array das unidades usadas no ArrayAdapter da ListView de Combustivel  -->
+    <string-array name="combustivel" tools:keep="@array/combustivel">
+        <item>Gallon/100 miles UK (gal/100mi UK)</item>
+        <item>Gallon/100 miles US (gal/100mi US)</item>
+        <item>Gallon/Mile UK (gal/mi UK)</item>
+        <item>Gallon/Mile US (gal/mi US)</item>
+        <item>Kilometer/Gallon US (km/gal)</item>
+        <item>Kilometer/Liter (km/L)</item>
+        <item>Liter/100km (L/100km)</item>
+        <item>Liter/Meter (L/m)</item>
+        <item>Meter/Cubic Centimeter (m/cm3)</item>
+        <item>Meter/Cubic Foot (m/ft3)</item>
+        <item>Meter/Cubic Inch (m/in3)</item>
+        <item>Meter/Cubic Meter (m/m3)</item>
+        <item>Meter/Cubic Yard (m/yd3)</item>
+        <item>Meter/Gallon UK (m/gal UK)</item>
+        <item>Meter/Gallon US (m/gal US)</item>
+        <item>Meter/Liter (m/L)</item>
+        <item>Mile/Gallon UK (mi/gal UK)</item>
+        <item>Mile/Gallon US (mi/gal US)</item>
+        <item>Mile/Liter (mi/L)</item>
+        <item>Nautical Mile/Gallon US (n.mile/gal US)</item>
+        <item>Nautical Mile/Liter (n.mile/L)</item>
+    </string-array>
+
+    <!-- Array das imagens de Moedas usado no ArrayAdapter da ListView de Moeda  -->
+    <string-array name="icons_moedas">
+        <item>ic_afghanistan (AFN)</item>
+        <item>ic_albania (ALL)</item>
+        <item>ic_angola (AOA)</item>
+        <item>ic_argelia (DZD)</item>
+        <item>ic_argentina (ARS)</item>
+        <item>ic_armenia (AMD)</item>
+        <item>ic_aruba (AWG)</item>
+        <item>ic_australia (AUD)</item>
+        <item>ic_bahamas (BSD)</item>
+        <item>ic_bahrain (BHD)</item>
+        <item>ic_bangladesh (BDT)</item>
+        <item>ic_barbados (BBD)</item>
+        <item>ic_belize (BZD)</item>
+        <item>ic_benin (XOF)</item>
+        <item>ic_bermudas (BMD)</item>
+        <item>ic_bolivia (BOB)</item>
+        <item>ic_botswana (BWP)</item>
+        <item>ic_brasil (BRL)</item>
+        <item>ic_brunei (BND)</item>
+        <item>ic_bulgaria (BGN)</item>
+        <item>ic_burma (MMK)</item>
+        <item>ic_burundi (BIF)</item>
+        <item>ic_butao (BTN)</item>
+        <item>ic_cabo_verde (CVE)</item>
+        <item>ic_camboja (KHR)</item>
+        <item>ic_cameroon (XAF)</item>
+        <item>ic_canada (CAD)</item>
+        <item>ic_catar (QAR)</item>
+        <item>ic_cayman_islands (KYD)</item>
+        <item>ic_chile (CLP)</item>
+        <item>ic_chile (CLF)</item>
+        <item>ic_china (CNY)</item>
+        <item>ic_colombia (COP)</item>
+        <item>ic_comoros (KMF)</item>
+        <item>ic_congo (CDF)</item>
+        <item>ic_coreia_sul (KRW)</item>
+        <item>ic_costa_rica (CRC)</item>
+        <item>ic_croacia (HRK)</item>
+        <item>ic_cuba (CUP)</item>
+        <item>ic_czech_republic (CZK)</item>
+        <item>ic_dinamarca (DKK)</item>
+        <item>ic_djibouti (DJF)</item>
+        <item>ic_egito (EGP)</item>
+        <item>ic_el_salvador (SVC)</item>
+        <item>ic_eritreia (ERN)</item>
+        <item>ic_ethiopia (ETB)</item>
+        <item>ic_euro (EUR)</item>
+        <item>ic_falkland_islands (FKP)</item>
+        <item>ic_fiji (FJD)</item>
+        <item>ic_filipinas (PHP)</item>
+        <item>ic_fmi (SDR)</item>
+        <item>ic_french_polinesia (XPF)</item>
+        <item>ic_gambia (GMD)</item>
+        <item>ic_gana (GHS)</item>
+        <item>ic_georgia (GEL)</item>
+        <item>ic_gibraltar (GIP)</item>
+        <item>ic_guatemala (GTQ)</item>
+        <item>ic_guiana (GYD)</item>
+        <item>ic_guinea (GNF)</item>
+        <item>ic_haiti (HTG)</item>
+        <item>ic_honduras (HNL)</item>
+        <item>ic_hong_kong (HKD)</item>
+        <item>ic_hungria (HUF)</item>
+        <item>ic_iceland (ISK)</item>
+        <item>ic_india (INR)</item>
+        <item>ic_indonesia (IDR)</item>
+        <item>ic_iran (IRR)</item>
+        <item>ic_iraq (IQD)</item>
+        <item>ic_israel (ILS)</item>
+        <item>ic_jamaica (JMD)</item>
+        <item>ic_japao (JPY)</item>
+        <item>ic_jordania (JOD)</item>
+        <item>ic_kazakhstan (KZT)</item>
+        <item>ic_kenya (KES)</item>
+        <item>ic_kuwait (KWD)</item>
+        <item>ic_kyrgyzstan (KGS)</item>
+        <item>ic_laos (LAK)</item>
+        <item>ic_lebanon (LBP)</item>
+        <item>ic_lesoto (LSL)</item>
+        <item>ic_liberia (LRD)</item>
+        <item>ic_libia (LYD)</item>
+        <item>ic_macao (MOP)</item>
+        <item>ic_macedonia (MKD)</item>
+        <item>ic_madagascar (MGA)</item>
+        <item>ic_malasia (MYR)</item>
+        <item>ic_malawi (MWK)</item>
+        <item>ic_maldivas (MVR)</item>
+        <item>ic_marrocos (MAD)</item>
+        <item>ic_mauritania (MRO)</item>
+        <item>ic_mauritius (MUR)</item>
+        <item>ic_mexico (MXN)</item>
+        <item>ic_moldavia (MDL)</item>
+        <item>ic_mongolia (MNT)</item>
+        <item>ic_mozambique (MZN)</item>
+        <item>ic_namibia (NAD)</item>
+        <item>ic_nepal (NPR)</item>
+        <item>ic_netherlands_antilles (ANG)</item>
+        <item>ic_nicaragua (NIO)</item>
+        <item>ic_nigeria (NGN)</item>
+        <item>ic_noruega (NOK)</item>
+        <item>ic_nova_zelandia (NZD)</item>
+        <item>ic_oman (OMR)</item>
+        <item>ic_panama (PAB)</item>
+        <item>ic_papua_nova_guine (PGK)</item>
+        <item>ic_paquistao (PKR)</item>
+        <item>ic_paraguai (PYG)</item>
+        <item>ic_peru (PEN)</item>
+        <item>ic_polonia (PLN)</item>
+        <item>ic_republica_dominicana (DOP)</item>
+        <item>ic_romenia (RON)</item>
+        <item>ic_ruanda (RWF)</item>
+        <item>ic_russia (RUB)</item>
+        <item>ic_samoa (WST)</item>
+        <item>ic_sao_tome_principe (STD)</item>
+        <item>ic_saudi_arabia (SAR)</item>
+        <item>ic_serbia (RSD)</item>
+        <item>ic_seychelles (SCR)</item>
+        <item>ic_sierra_leone (SLL)</item>
+        <item>ic_singapore (SGD)</item>
+        <item>ic_siria (SYP)</item>
+        <item>ic_solomon_islands (SBD)</item>
+        <item>ic_somalia (SOS)</item>
+        <item>ic_south_africa (ZAR)</item>
+        <item>ic_sri_lanka (LKR)</item>
+        <item>ic_st_vincent_grenadin (XCD)</item>
+        <item>ic_sudan (SDG)</item>
+        <item>ic_suecia (SEK)</item>
+        <item>ic_suica (CHF)</item>
+        <item>ic_suriname (SRD)</item>
+        <item>ic_swaziland (SZL)</item>
+        <item>ic_tailandia (THB)</item>
+        <item>ic_taiwan (TWD)</item>
+        <item>ic_tajikistan (TJS)</item>
+        <item>ic_tanzania (TZS)</item>
+        <item>ic_tonga (TOP)</item>
+        <item>ic_trinidade_tobago (TTD)</item>
+        <item>ic_tunisia (TND)</item>
+        <item>ic_turkmenistan (TMT)</item>
+        <item>ic_turquia (TRY)</item>
+        <item>ic_ucrania (UAH)</item>
+        <item>ic_uganda (UGX)</item>
+        <item>ic_united_arab_emirates (AED)</item>
+        <item>ic_united_kingdom (GBP)</item>
+        <item>ic_united_kingdom (SHP)</item>
+        <item>ic_united_states (USD)</item>
+        <item>ic_united_states (XAU)</item>
+        <item>ic_uruguay (UYU)</item>
+        <item>ic_uzbekistan (UZS)</item>
+        <item>ic_vanuato (VUV)</item>
+        <item>ic_venezuela (VEF)</item>
+        <item>ic_viet_nam (VND)</item>
+        <item>ic_yemen (YER)</item>
+    </string-array>
+
+    <!-- Array das imagens de Conversores usados no ArrayAdapter da ListView principal  -->
+    <integer-array name="icons_conversores">
+        <item>@mipmap/ic_aceleracao</item>
+        <item>@mipmap/ic_area</item>
+        <item>@mipmap/ic_gas</item>
+        <item>@mipmap/ic_comprimento</item>
+        <item>@mipmap/ic_peso</item>
+        <item>@mipmap/ic_moeda</item>
+        <item>@mipmap/ic_rates</item>
+        <item>@mipmap/ic_termometro</item>
+        <item>@mipmap/ic_speed</item>
+        <item>@mipmap/ic_volume</item>
+    </integer-array>
+
+    <!-- Aqui começa a parte do SIMCALC -->
+
+    <!-- Usado para preencher o ListView de Cálculos da tela inicial -->
+    <string-array name="calculos_titulo">
+        <item>Anticipation</item>
+        <item>Loan</item>
+        <item>Property acquisition</item>
+        <item>Vehicle acquisition</item>
+        <item>Application</item>
+        <item>Purchase in one lump sum</item>
+        <item>Living Income</item>
+        <item>Save Money</item>
+    </string-array>
+
+    <!-- Array das imagens dos Cálculos usados no ArrayAdapter da ListView principal  -->
+    <integer-array name="icons_calculos">
+        <item>@mipmap/ic_quitar</item>
+        <item>@mipmap/ic_emprestimo</item>
+        <item>@mipmap/ic_finbem</item>
+        <item>@mipmap/ic_fincar</item>
+        <item>@mipmap/ic_aplicar</item>
+        <item>@mipmap/ic_comprar</item>
+        <item>@mipmap/ic_renda</item>
+        <item>@mipmap/ic_juntar</item>
+    </integer-array>
+
+    <string-array name="calculos_descricao">
+        <item> Full debt payment simulator. </item>
+        <item> Loan simulator. </item>
+        <item> Real estate financing simulator. </item>
+        <item> Vehicular financing simulator. </item>
+        <item> Application simulator. </item>
+        <item> Simulator to purchase a good in one lump sum. </item>
+        <item> Retirement Simulator. </item>
+        <item> Dream Simulator. </item>
+    </string-array>
+
+    <!-- Usado para preencher o ListView de Cálculos da tela inicial -->
+    <string-array name="antecipacao_titulo">
+        <item>Unique value in debt</item>
+        <item>Financed debt</item>
+    </string-array>
+
+    <!-- Array das imagens dos Cálculos usados no ArrayAdapter da ListView principal  -->
+    <integer-array name="antecipacao_icons">
+        <item>@mipmap/ic_divida_unica</item>
+        <item>@mipmap/ic_divida_parcelada</item>
+    </integer-array>
+
+    <string-array name="antecipacao_descricao">
+        <item>Use this option to calculate the advance single amount receivable.</item>
+        <item>Use this option to calculate the amount in advance installments receivable.</item>
+    </string-array>
+
+    <!-- Usado para preencher o ListView de Cálculos da tela inicial -->
+    <string-array name="emprestimo_titulo">
+        <item>Capital</item>
+        <item>Interest rate</item>
+        <item>Period</item>
+        <item>Amount</item>
+    </string-array>
+
+    <!-- Array das imagens dos Cálculos usados no ArrayAdapter da ListView principal  -->
+    <integer-array name="emprestimo_icons">
+        <item>@mipmap/ic_capital</item>
+        <item>@mipmap/ic_taxa</item>
+        <item>@mipmap/ic_tempo</item>
+        <item>@mipmap/ic_montante</item>
+    </integer-array>
+
+    <string-array name="emprestimo_descricao">
+        <item>Use this calculation to find out the loan amount with one payment at the end of the period.</item>
+        <item>Use this calculation to find out the interest rate of a one payment loan at the end of the period.</item>
+        <item>Use this calculation to find out the time required for a certain loan amount produces a certain amount.</item>
+        <item>Use this calculation to find out the loan amount with single payment at the end of the period.</item>
+    </string-array>
+
+    <!-- Usado para preencher o ListView de Cálculos da tela inicial -->
+    <string-array name="financiamento_titulo">
+        <item>Value Financing</item>
+        <item>Interest rate</item>
+        <item>Period</item>
+        <item>Installment</item>
+<!--
+        <item>Amortization (PRICE)</item>
+        <item>Amortization (SAC)</item>
+-->
+    </string-array>
+
+    <!-- Array das imagens dos Cálculos usados no ArrayAdapter da ListView principal  -->
+    <integer-array name="financiamento_icons">
+        <item>@mipmap/ic_money_bag</item>
+        <item>@mipmap/ic_taxa</item>
+        <item>@mipmap/ic_tempo</item>
+        <item>@mipmap/ic_money</item>
+<!--
+        <item>@mipmap/ic_planilha</item>
+        <item>@mipmap/ic_planilha</item>
+-->
+    </integer-array>
+
+    <string-array name="financiamento_descricao">
+        <item>Use this calculation to find out the amount Financed for acquisition of a good with payment of fixed Installments.</item>
+        <item>Use this calculation to find out the interest rate charged for the period in a financing fixed installments.</item>
+        <item>Use this calculation to find out how long the good funded will be paid.</item>
+        <item>Use this calculation to find out the value of the fixed installment of a funding.</item>
+<!--
+        <item>Use this calculation to get the amortization spreadsheet of a funding by the PRICE system.</item>
+        <item>Use this calculation to get the amortization spreadsheet of a funding by the CAS system.</item>
+-->
+    </string-array>
+
+    <!-- Usado para preencher o ListView de Cálculos da tela inicial -->
+    <string-array name="aquisicao_veiculo_titulo">
+        <item>Input</item>
+        <item>Instalment</item>
+    </string-array>
+
+    <!-- Array das imagens dos Cálculos usados no ArrayAdapter da ListView principal  -->
+    <integer-array name="aquisicao_veiculo_icons">
+        <item>@mipmap/ic_cash_in_hand</item>
+        <item>@mipmap/ic_capital</item>
+    </integer-array>
+
+    <string-array name="aquisicao_veiculo_descricao">
+        <item>Use this calculation to find out the input value to finance a vehicle.</item>
+        <item>Use this calculation to find out the instalment value to finance a vehicle.</item>
+    </string-array>
+
+    <!-- Usado para preencher o ListView de Cálculos da tela inicial -->
+    <string-array name="aplicacao_titulo">
+        <item>Future value</item>
+        <item>Capital</item>
+        <item>Period</item>
+        <item>Interest rate</item>
+    </string-array>
+
+    <!-- Array das imagens dos Cálculos usados no ArrayAdapter da ListView principal  -->
+    <integer-array name="aplicacao_icons">
+        <item>@mipmap/ic_montante</item>
+        <item>@mipmap/ic_capital</item>
+        <item>@mipmap/ic_tempo</item>
+        <item>@mipmap/ic_taxa</item>
+    </integer-array>
+
+    <string-array name="aplicacao_descricao">
+        <item>Use this calculation to figure out the future value of an application with a single initial deposit.</item>
+        <item>Use this calculation to find out the initial value of an application with a single initial deposit.</item>
+        <item>Use this calculation to find out how long a certain amount will produce a certain amount accumulated.</item>
+        <item>Use this calculation to find out the interest rate of an application with a single initial deposit.</item>
+    </string-array>
+
+    <!-- Usado para preencher o ListView de Cálculos da tela inicial -->
+    <string-array name="comprar_a_vista_titulo">
+        <item>Good value</item>
+        <item>Amount of monthly deposits</item>
+        <item>Saving time</item>
+        <item>Initial deposit</item>
+    </string-array>
+
+    <!-- Array das imagens dos Cálculos usados no ArrayAdapter da ListView principal  -->
+    <integer-array name="comprar_a_vista_icons">
+        <item>@mipmap/ic_money_bag</item>
+        <item>@mipmap/ic_money</item>
+        <item>@mipmap/ic_tempo</item>
+        <item>@mipmap/ic_pig</item>
+    </integer-array>
+
+    <string-array name="comprar_a_vista_descricao">
+        <item>Use this calculation to set the value of the good you will be able to buy making a determined effort.</item>
+        <item>Use this calculation to find out how much you need to save per month to buy a particular good  in one lump sum.</item>
+        <item>Use this calculation to find out how long you will have enough money to buy a particular good in one lump sum.</item>
+        <item>Use this calculation to find out how much will be used of money saved to the initial deposit, limiting monthly deposits.</item>
+    </string-array>
+
+    <!-- Usado para preencher o ListView de Cálculos da tela inicial -->
+    <string-array name="viver_de_renda_titulo">
+        <item>Monthly amount receivable</item>
+        <item>Enjoyment period</item>
+        <item>Accumulated amount required</item>
+    </string-array>
+
+    <!-- Array das imagens dos Cálculos usados no ArrayAdapter da ListView principal  -->
+    <integer-array name="viver_de_renda_icons">
+        <item>@mipmap/ic_capital</item>
+        <item>@mipmap/ic_periodo</item>
+        <item>@mipmap/ic_montante</item>
+    </integer-array>
+
+    <string-array name="viver_de_renda_descricao">
+        <item>Use this calculation to know how much you will be getting per month fixing the enjoyment period and the accumulated value.</item>
+        <item>Use this calculation to find out how long you can get a certain monthly withdrawal with a certain amount accumulated.</item>
+        <item>Use this calculation to find out how much you need to accumulate in order to live income by fixing the value of withdrawals and the enjoyment period.</item>
+    </string-array>
+
+    <!-- Usado para preencher o ListView de Cálculos da tela inicial -->
+    <string-array name="juntar_dinheiro_titulo">
+        <item>Value to accumulate</item>
+        <item>Monthly deposit</item>
+        <item>Accumulative period</item>
+        <item>Initial deposit</item>
+    </string-array>
+
+    <!-- Array das imagens dos Cálculos usados no ArrayAdapter da ListView principal  -->
+    <integer-array name="juntar_dinheiro_icons">
+        <item>@mipmap/ic_money_bag</item>
+        <item>@mipmap/ic_money</item>
+        <item>@mipmap/ic_tempo</item>
+        <item>@mipmap/ic_pig</item>
+    </integer-array>
+
+    <string-array name="juntar_dinheiro_descricao">
+        <item>Use this calculation to find out how much you can accumulate according to their possibilities.</item>
+        <item>Use this calculation to find out how much you need to save each month to accumulate a certain amount.</item>
+        <item>Use this calculation to find out how long it can accumulate a certain amount according to the deposits that you stipulate.</item>
+        <item>Use this calculation to find out how much you need to have to start saving amounts monthly to accumulate a certain amount.</item>
+    </string-array>
+
+</resources>
